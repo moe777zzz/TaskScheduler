@@ -1,41 +1,26 @@
-# Prerequisites
-*.d
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln.docstates
+*.suo
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# 编译输出
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
 *.exe
-*.out
-*.app
+*.ilk
+*.pdb
+*.lib
+*.exp
 
-# debug information files
-*.dwo
+# 日志文件
+*.log
+*.txt
+
+# 其他
+*.filters
+*.user
